@@ -1,0 +1,182 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Portfolio</title>
+    <link href="navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: red;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #b30000;
+        }
+    </style>
+
+    <style>
+        #scrollUp {
+            position: fixed;
+            bottom: 10px;
+            right: -100px;
+            opacity: 0.5;
+        }
+    </style>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script>
+        jQuery(function () {
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 200) {
+                        $('#scrollUp').css('right', '10px');
+                    } else {
+                        $('#scrollUp').removeAttr('style');
+                    }
+
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <link href="navbar.css" rel="stylesheet">
+    <ul id="nav" class="drop">
+        <li><a href="moi.html">A propos de moi  </a></li>
+      <li><a href="apropo.html">Presentation du BTS SIO </a></li>
+    
+      <li>Mes veilles 
+        <ul>
+          <li class="dir"><a href="veille.html">Veille technologique </a></li>
+          <li class="dir"> <a href="veil.html">Veille juridique  </a>
+            <ul>
+             
+            </ul>
+          </li>
+        
+        </ul>
+      </li>
+
+
+
+
+
+     
+       
+      </li>
+      <li> <a href="femme france.html">Experience professionnelles  </a></li>
+        <ul>
+          
+         
+        
+        </ul>
+      </li>
+      <li>Rapport de stage bts sio
+        <ul>
+          <li class="dir"><a href="Rapport.pdf">Premiere annee </a></li>
+          <li class="dir"><a href="#">Deuxieme annee </a>
+            <ul>
+             
+            </ul>
+          </li>
+        
+        </ul>
+      </li>
+      <li><a href="index.php">Formulaire de contact </a></li>
+    
+    
+    
+      <li> <a href="cv_bon.pdf">CV PDF  </a> </li>
+       
+    
+        <li><a href="ppe.html">Mes projets ppe  </a></li>
+    
+        <li><a href="#">Tableau de competences  </a></li>
+        <li><a href="mention.html">mentions legales  </a></li>
+    
+    <br>
+      </li>
+     
+    </ul>
+    <div class="slidecenter">
+
+      
+        
+       
+
+        <div class="container">
+            <a href="#container">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+            </a>
+        </div>
+    </div>
+    <div class="truc">
+
+    </div>
+    <div class="pagecontent" id="container">
+        <div class="topspace">
+            <div class="left">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="cv.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Mon CV</h5>
+                        <p class="card-text">Cliquez sur le bouton pour accéder a mon CV en ligne</p>
+                        <a target="_blank" title="Cliquez ici sur ce lien " href="cv_bon.pdf" class="btn btn-primary">Mon
+                            CV</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="veille.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Ma Veille Technologique</h5>
+                        <p class="card-text">Cliquez sur le bouton pour accéder a mon Veille Technologique en ligne</p>
+                        <a target="_blank" title="Cliquez ici sur ce lien " href="veille.html"
+                            class="btn btn-primary">Ma Veille Technologique</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <p><a href="mailto:coleau.hugo@gmail.com" target="_blank" title="Cliquez ici sur ce lien " style="color:white;">
+            &#9755; Contactez moi</a></p>
+
+<p><a href="https://github.com/hugo59400?tab=repositories" target="_blank" title="Cliquez ici sur ce lien " style="color:white;">
+            &#9755; Mon lien GitHub </a></p>
+
+    <a href="https://diplomeo.com/trouver-bts-sio" target="_blank" title="Cliquez ici sur ce lien " style="color:white;"
+        title="Cliquez ici"> &#9755; Pour plus d'informations sur
+        la formation allez visiter ce site. </a>
+
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <div id="scrollUp">
+        <a href="#top"><img src="to_top.png" /></a>
+    </div>
+</body>
+</html>
